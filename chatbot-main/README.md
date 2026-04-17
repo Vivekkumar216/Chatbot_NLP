@@ -62,6 +62,25 @@ The **React** frontend provides a clean, minimalistic, and highly responsive int
 
 ---
 
+## ☁️ Deployment (Cloud)
+
+To deploy this project to the web for free, I recommend using **[Render.com](https://render.com/)**:
+
+1. Create a free account on Render.
+2. Create a **New Web Service** and connect your GitHub repo.
+3. Select **Python** as the environment.
+4. Set the **Build Command** to:
+   ```bash
+   pip install -r requirements.txt && cd frontend && npm install && npm run build
+   ```
+5. Set the **Start Command** to:
+   ```bash
+   python server.py
+   ```
+6. Your app will be live at a `.onrender.com` URL!
+
+---
+
 ## 📬 Contact
 
 Have questions or feedback? Let’s connect!
